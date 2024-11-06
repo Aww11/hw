@@ -400,6 +400,8 @@ if __name__ == "__main__":
 
     # Псевдослучайная последовательность байтов
     data = os.urandom(16)
+    
+    #Енто для наглядности просто
 
     # Шифрование и дешифрование в режиме ECB
     encrypted_data_ecb = des.encrypt(data, EncryptionMode.ECB)
@@ -440,6 +442,8 @@ if __name__ == "__main__":
     print("Original data:", data)
     print("Encrypted data:", encrypted_data_ctr)
     print("Decrypted data:", decrypted_data_ctr)
+    
+    #Это работа с файликом
 
     # Шифрование и дешифрование файлов
     def encrypt_file(input_file, output_file, mode: EncryptionMode, iv: bytes):
@@ -464,7 +468,7 @@ if __name__ == "__main__":
 
     # Пример шифрования и дешифрования файла
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_file = 'input.txt'
+    input_file = 'input.txt' #тут можно поменять название файлика, я пробовала только txt и png
     encrypted_file = 'encrypteddeal.bin'
     decrypted_file = 'decrypteddeal.txt'
 
