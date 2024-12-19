@@ -414,7 +414,7 @@ if __name__ == "__main__":
                 fout.write(decrypted_chunk.rstrip(b'\0'))
 
     # Пример шифрования и дешифрования файла
-    input_file = 'C:\\labs4grade\\criptography\\1lab\\input.txt'  # Укажите полный путь к файлу
+    input_file = 'C:\\labs4grade\\criptography\\1lab\\input.txt'
     encrypted_file = 'encrypted.bin'
     decrypted_file = 'decrypted.txt'
 
