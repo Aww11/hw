@@ -468,7 +468,7 @@ if __name__ == "__main__":
 
     # Пример шифрования и дешифрования файла
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_file = 'input.txt' #тут можно поменять название файлика, я пробовала только txt и png
+    input_file = 'input.txt' #тут можно поменять название файлика
     encrypted_file = 'encrypteddeal.bin'
     decrypted_file = 'decrypteddeal.txt'
 
